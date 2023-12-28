@@ -119,15 +119,15 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px) {
-    .experiences {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+  // @media (max-width: 960px) {
+  //   .experiences {
+  //     grid-template-columns: 1fr 1fr;
+  //   }
+  // }
 
-  @media (max-width: 740px) {
-    .experiences {
-      grid-template-columns: 1fr;
-    }
-  }
+  // @media (max-width: 740px) {
+  //   .experiences {
+  //     grid-template-columns: 1fr;
+  //   }
+  // }
 `;
