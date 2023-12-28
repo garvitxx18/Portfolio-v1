@@ -84,7 +84,7 @@ export const Container = styled.section`
         margin-bottom: 2rem;
       }
 
-      p {
+      ul {
         color: #00008b;
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
@@ -119,15 +119,31 @@ export const Container = styled.section`
     }
   }
 
-  // @media (max-width: 960px) {
-  //   .experiences {
-  //     grid-template-columns: 1fr 1fr;
-  //   }
-  // }
+  @media (max-width: 960px) {
+    .experiences {
+      grid-template-columns: 1fr;
+    }
+  }
 
-  // @media (max-width: 740px) {
-  //   .experiences {
-  //     grid-template-columns: 1fr;
-  //   }
-  // }
+  @media (max-width: 740px) {
+    .experiences {
+      grid-template-columns: 1fr;
+    }
+    .Hide-1 {
+      display: none;
+    }
+    .Hide-2 {
+      display: none;
+    }
+  }
+  @media (max-width: 550px) {
+    .company-span {
+      display: none;
+    }
+  }
+  @media (max-width: 424px) {
+    .Hide-3 {
+      display: none;
+    }
+  }
 `;

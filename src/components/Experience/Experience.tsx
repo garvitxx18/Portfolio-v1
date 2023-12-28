@@ -17,9 +17,13 @@ export function Experience() {
                 <h3 className="company-name">Deutsche Bank</h3>
               </div>
               <div className="experience-links">
-                <h5>May 2023 - July 2023</h5>
+                <h5 className="company-span">May 2023 - July 2023</h5>
                 <a href="https://www.db.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                  <img
+                    className="comapny-img"
+                    src={externalLink}
+                    alt="Visit site"
+                  />
                 </a>
               </div>
             </header>
@@ -49,9 +53,9 @@ export function Experience() {
                 <li>Spark</li>
                 <li>Scala</li>
                 <li>PySpark</li>
-                <li>HQL</li>
-                <li>Cucumber</li>
-                <li>OracleSQL</li>
+                <li className="Hide-1">HQL</li>
+                <li className="Hide-2">Cucumber</li>
+                <li className="Hide-3">OracleSQL</li>
               </ul>
             </footer>
           </div>
@@ -66,13 +70,17 @@ export function Experience() {
               </div>
 
               <div className="experience-links">
-                <h5>July 2022 - Aug 2022</h5>
+                <h5 className="company-span">July 2022 - Aug 2022</h5>
                 <a
                   href="https://www.geeksforgeeks.org/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLink} alt="Visit site" />
+                  <img
+                    className="comapny-img"
+                    src={externalLink}
+                    alt="Visit site"
+                  />
                 </a>
               </div>
             </header>
