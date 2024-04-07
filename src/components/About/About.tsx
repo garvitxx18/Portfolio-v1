@@ -11,6 +11,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import flask from "../../assets/flask.svg";
 import MySQL from "../../assets/mysql-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import haskell from "../../assets/haskell.svg" 
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -107,6 +108,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={flask} alt="flask" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+              <img src={haskell} alt="haskell" />
             </ScrollAnimation>
           </div>
         </div>

@@ -2,6 +2,7 @@ import { Container } from "./styles";
 import externalLink from "../../assets/external-link-svgrepo-com.svg";
 import geeksforgeeks from "../../assets/icons8-geeksforgeeks.svg";
 import deutschebank from "../../assets/deutsche-bank-1.svg";
+import juspay from "../../assets/JuspayLogo.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Experience() {
@@ -9,6 +10,49 @@ export function Experience() {
     <Container id="experience">
       <h2>Experience</h2>
       <div className="experiences">
+        <ScrollAnimation animateIn="flipInX">
+          <div className="experience">
+            <header>
+              <div className="company-logo">
+                <img src={juspay} alt="Visit site" />
+                <h3 className="company-name">Juspay</h3>
+              </div>
+              <div className="experience-links">
+                <h5 className="company-span">March 2024 - Present</h5>
+                <a href="https://www.juspay.in" target="_blank" rel="noreferrer">
+                  <img
+                    className="comapny-img"
+                    src={externalLink}
+                    alt="Visit site"
+                  />
+                </a>
+              </div>
+            </header>
+            <hr></hr>
+            <div className="body">
+              <h3 className="company-role">
+                SDE Intern
+              </h3>
+              <ul className="company-data">
+                <li>
+                  &bull; Working with the Instant Refund team (Morpheus) to enhance existing APIs and provide faster and more responsive refund solutions for Swiggy, Amazon India, and Zomato. 
+                </li>
+                <li>
+                  &bull; We are also working on server traffic scalability for companies such as My11 Circle and MPL. (for pot distribution)  
+                </li>
+                <li>
+                  &bull; working on complete functional programing languages like haskell and PureScript, to provide the most optimized and robust APIs
+                </li>
+              </ul>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>PureScript</li>
+                <li>Haskell</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
         <ScrollAnimation animateIn="flipInX">
           <div className="experience">
             <header>
@@ -60,7 +104,6 @@ export function Experience() {
             </footer>
           </div>
         </ScrollAnimation>
-
         <ScrollAnimation animateIn="flipInX">
           <div className="experience">
             <header>

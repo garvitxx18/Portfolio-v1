@@ -55,5 +55,9 @@
     "@types/react-router-hash-link": "^2.4.4",
     "@types/styled-components": "^5.1.18",
     "@types/validator": "^13.7.1"
-  }
+  },
+  "description": "![image](https://github.com/garvitxx18/Portfolio-v1/assets/92787503/aaa5012d-ec08-4867-8d1d-48d80587661e)",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
