@@ -18,7 +18,7 @@ export function Experience() {
                 <h3 className="company-name">Juspay</h3>
               </div>
               <div className="experience-links">
-                <h5 className="company-span">March 2024 - Present</h5>
+                <h5 className="company-span">March 2024 - July 2024</h5>
                 <a href="https://www.juspay.in" target="_blank" rel="noreferrer">
                   <img
                     className="comapny-img"
