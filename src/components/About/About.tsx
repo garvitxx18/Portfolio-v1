@@ -25,7 +25,7 @@ export function About() {
           <p>
             Hi there! I'm Garvit, a website developer with a passion for
             creating custom online experiences for my clients. With a skill set
-            including HTML, CSS, JavaScript, Node and React, I have the tools to
+            including Scala, PureScript, Haskell, HTML, CSS, JavaScript, Node and React, I have the tools to
             bring any website vision to life.
           </p>
         </ScrollAnimation>
