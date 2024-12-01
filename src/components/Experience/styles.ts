@@ -46,13 +46,17 @@ export const Container = styled.section`
           align-items: center;
           justify-content: center;
           .company-name {
-            margin-top: 2rem;
             margin-left: 1rem;
             color: #353843;
             font-weight: bold;
             margin-top: 1.8rem;
             color: #010101;
             margin-bottom: 2rem;
+          }
+          .dws-name {
+            margin-top: 1rem;
+            color: #010101;
+            font-weight: bold;  
           }
         }
         .experience-links {

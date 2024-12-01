@@ -11,7 +11,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import flask from "../../assets/flask.svg";
 import MySQL from "../../assets/mysql-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
-import haskell from "../../assets/haskell.svg" 
+import haskell from "../../assets/haskell.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -23,10 +23,10 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Garvit, a website developer with a passion for
+            Hi there! I'm Garvit, a FullStack developer with a passion for
             creating custom online experiences for my clients. With a skill set
-            including HTML, CSS, JavaScript, Node and React, I have the tools to
-            bring any website vision to life.
+            including HTML, CSS, JavaScript, Node, React and Java/SpringBoot, I
+            have the tools to bring any website vision to life.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -35,10 +35,11 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            I have a solid understanding of JavaScript, React, and Node.js, and
-            I have successfully delivered projects utilizing these technologies.
-            My experience includes building responsive user interfaces,
-            implementing RESTful APIs, and integrating third-party services.
+            I have a solid understanding of JavaScript, React, Node.js, and
+            SpringBoot and I have successfully delivered projects utilizing
+            these technologies. My experience includes building responsive user
+            interfaces, implementing RESTful APIs, and integrating third-party
+            services.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
